@@ -28,6 +28,7 @@ public class CrearEmpleados {
         empleado[fila][3] = ""+edad;
         empleado[fila][4] = tipoEmpleado;   
         this.x = empleado;
+      
     }
 
     

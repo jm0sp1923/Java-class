@@ -3,7 +3,7 @@ package jm0sp;
 import java.util.Scanner;
 
 public class Menu {
-    String empleados[][] = new String[100][7];
+    String empleados[][] = new String[100][6];
     int fila = 0;
     Scanner sc = new Scanner(System.in);
 
@@ -33,6 +33,10 @@ public class Menu {
                 break;
             }
             case 2:{
+                registrarIngresos();
+                break;
+            }
+            case 3:{
                 mostrar();
                 break;
             }             
@@ -48,6 +52,10 @@ public class Menu {
        
     }
 
+    void registrarIngresos(){
+       // RegistrarIngresos rg = new RegistrarIngresos(empleados);
+        //empleados = rg.x;
+    }
 
 
     void mostrar(){

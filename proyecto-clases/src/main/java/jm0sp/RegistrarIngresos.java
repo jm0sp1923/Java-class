@@ -11,7 +11,7 @@ class RegistrarIngresos{
         int codigoEmpleado = sc.nextInt();
         boolean existe = false;
         for(int i =0;i<fila;i++){
-        if(Integer.parseInt(empleados[0][2]) == codigoEmpleado){
+         if(Integer.parseInt(empleados[i][2]) == codigoEmpleado){
             System.out.println("Empleado: "+empleados[i][0]);
             System.out.println("Digite la hora de entrada(El formato debe ser 2400)");
             int hora = sc.nextInt();
